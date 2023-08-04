@@ -4,3 +4,5 @@ This example shows how to use generated C code from MATLAB in external projects.
 $$ e_R = \frac{1}{2}(R_{\rm des}^{T}R - R^{T}R_{\rm des})^{\vee} $$
 
 where $`^{\vee}~: \mathsf{SO}(3)~\rightarrow~\mathbb{R}^3`$ is the $\textit{vee map}$.
+
+Make sure you have Eigen and MATLAB installed. The generated code uses the header file "tmwtypes.h" which is present in the MATLAB installation directory "/MATLAB/extern/include".
